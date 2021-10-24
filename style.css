@@ -86,46 +86,44 @@ ul {
 @media (min-width: 720px) {
   /* estilos versão tablet */
   body {
-    background: #121214
+    background: #121214;
   }
   main {
     background: url(images/Desktop.svg) no-repeat center/ cover;
-    width: 100vw;
-    min-height: 812px;
+    width: 100vw; 
     height: 100vh;
   }
 
   .avatar {
     width: 10rem;
     height: 11.5rem;
-    margin: 13.5rem auto 0;
-
+    margin: 13.25rem auto 0;
   }
 
   h1 {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 
   a#userLink {
     transition: 0.2s;
   }
-  
-  a#userLink:hover {  
-    color: #FA8E39;
+
+  a#userLink:hover {
+    color: #fa8e39;
   }
 
   p {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
 
   ul {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
 
   ul li a {
     transition: 0.2s;
   }
-  
+
   ul li a:hover {
     transform: translateY(-10px);
   }
@@ -135,8 +133,19 @@ ul {
   }
 }
 
-/*
 @media (min-width: 960px) {
-   /*estilos versão desktop 
-  
-}*/
+  /*estilos versão desktop*/
+  .avatar {
+    width: 10rem;
+    height: 11.5rem;
+    margin: 13.25rem auto 0;
+  }
+
+  h1 {
+    margin-top: .5rem;
+  }
+
+  .logo {
+    margin: 1rem -1rem 0;
+  }
+}
